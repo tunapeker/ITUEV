@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"aks_cubemx\startup_stm32f103xb.o"
+"aks_cubemx\main.o"
+"aks_cubemx\stm32f1xx_it.o"
+"aks_cubemx\stm32f1xx_hal_msp.o"
+"aks_cubemx\stm32f1xx_hal_gpio_ex.o"
+"aks_cubemx\stm32f1xx_hal_adc.o"
+"aks_cubemx\stm32f1xx_hal_adc_ex.o"
+"aks_cubemx\stm32f1xx_hal.o"
+"aks_cubemx\stm32f1xx_hal_rcc.o"
+"aks_cubemx\stm32f1xx_hal_rcc_ex.o"
+"aks_cubemx\stm32f1xx_hal_gpio.o"
+"aks_cubemx\stm32f1xx_hal_dma.o"
+"aks_cubemx\stm32f1xx_hal_cortex.o"
+"aks_cubemx\stm32f1xx_hal_pwr.o"
+"aks_cubemx\stm32f1xx_hal_flash.o"
+"aks_cubemx\stm32f1xx_hal_flash_ex.o"
+"aks_cubemx\stm32f1xx_hal_exti.o"
+"aks_cubemx\stm32f1xx_hal_can.o"
+"aks_cubemx\stm32f1xx_hal_spi.o"
+"aks_cubemx\stm32f1xx_hal_tim.o"
+"aks_cubemx\stm32f1xx_hal_tim_ex.o"
+"aks_cubemx\stm32f1xx_hal_uart.o"
+"aks_cubemx\system_stm32f1xx.o"
+--strict --scatter "AKS_CUBEMX\AKS_CUBEMX.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "AKS_CUBEMX.map" -o AKS_CUBEMX\AKS_CUBEMX.axf
