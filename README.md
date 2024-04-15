@@ -1,2 +1,2 @@
 # ITUEV
- İTÜ Elektrikli Araç Takımı ortak kod deposu
+ ITUEV Embedded Software Codes
